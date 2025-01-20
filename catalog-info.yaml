@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  namespace: to-be-defined
+  name: card-interview
+  title: Card Interview
+  description: Code Challenge to code interview
+  annotations:
+    legacy.stone.tech/owner-email: fausto.junqueira@stone.com.br
+spec:
+  type: service
+  lifecycle: experimental
+  owner: stone-payments/banking-eng-cartao-gestao
